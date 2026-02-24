@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Profile avatar">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c5cff" />
+      <stop offset="1" stop-color="#5cd1ff" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="#071627" />
+  <circle cx="120" cy="84" r="44" fill="url(#g)" />
+  <rect x="48" y="140" width="144" height="28" rx="8" fill="#0b1220" />
+  <text x="120" y="154" font-family="Inter, Arial, sans-serif" font-size="18" fill="#bcd7ff" text-anchor="middle">Arifa</text>
+</svg>

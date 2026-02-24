@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Arifa — Frontend developer. Portfolio showcasing projects and contact." />
+  <title>Arifa — Portfolio</title>
+  <link rel="canonical" href="https://your-site.example/">
+  <meta name="author" content="Arifa">
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Arifa — Portfolio">
+  <meta property="og:description" content="I build accessible, responsive web experiences — HTML, CSS, and JavaScript.">
+  <meta property="og:image" content="assets/profile.svg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@your_twitter">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Arifa",
+    "url": "https://your-site.example/",
+    "sameAs": []
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Ashrafun Nahar Arifa</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="hero" aria-labelledby="hero-heading">
+      <img src="assets/Arifa.jpg" alt="Arifa — portrait" class="avatar" loading="lazy">
+      <div>
+        <h1 id="hero-heading">Hi, I'm Arifa</h1>
+        <p class="lead">I build accessible, responsive web experiences — HTML, CSS, and JavaScript.</p>
+        <p><a class="btn" href="#projects">See my work</a></p>
+      </div>
+    </section>
+
+    <section class="about container" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>I’m a frontend developer focusing on clean interfaces and performant UI. I enjoy CSS architecture and accessible components.</p>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React / Vue</li>
+        <li>Accessibility</li>
+      </ul>
+    </section>
+
+    <section class="projects container" id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>Single-page app with responsive layout and animations.</p>
+          <p><a href="#" class="link">View details</a></p>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Reusable component library with tests and docs.</p>
+          <p><a href="#" class="link">View details</a></p>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>Backend-for-frontend with authentication and API integration.</p>
+          <p><a href="#" class="link">View details</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section container" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading" class="section-title">Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h3>Let's work together!</h3>
+          <p class="contact-desc">I'm currently available for freelance work and full-time opportunities. If you have a project that you want to get started, think you need my help with something, or just fancy saying hey, then get in touch.</p>
+
+          <ul class="contact-info" aria-hidden="false">
+            <li>
+              <span class="icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <rect x="2" y="5" width="20" height="14" rx="2" stroke="#fff" stroke-opacity="0.95" stroke-width="1.2" fill="none" />
+                  <path d="M3 7.5l9 6 9-6" stroke="#fff" stroke-opacity="0.95" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </svg>
+              </span>
+              <div class="meta">
+                <strong>Email</strong>
+                <div class="meta-sub">ashrafunnahararifa@gmail.com</div>
+              </div>
+            </li>
+            <li>
+              <span class="icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="#fff" stroke-opacity="0.95" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                  <circle cx="12" cy="9" r="2" fill="#fff" fill-opacity="0.95" />
+                </svg>
+              </span>
+              <div class="meta">
+                <strong>Location</strong>
+                <div class="meta-sub">West Shewrapara,Mirpur,Dhaka-1216,Bangladesh</div>
+              </div>
+            </li>
+            <li>
+              <span class="icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 16.92V20a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2 4.18 2 2 0 0 1 4 2h3.09a2 2 0 0 1 2 1.72c.12 1.05.4 2.07.83 3.03a2 2 0 0 1-.45 2.11L8.91 11.91a16 16 0 0 0 6 6l1.05-1.05a2 2 0 0 1 2.11-.45c.96.43 1.98.71 3.03.83A2 2 0 0 1 22 16.92z" stroke="#fff" stroke-opacity="0.9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <div class="meta">
+                <strong>Phone</strong>
+                <div class="meta-sub">+8801780213066</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-right">
+          <form class="contact-form" action="mailto:hello@example.com" method="post" encType="text/plain">
+            <input id="name" name="name" type="text" placeholder="Your Name" required>
+            <input id="email" name="email" type="email" placeholder="Your Email" required>
+            <input id="subject" name="subject" type="text" placeholder="Subject">
+            <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Arifa. Built with care.</p>
+      <nav class="footer-nav" aria-label="Social links">
+        <a class="social-link" href="https://facebook.com/ashrafunnahar.arifa" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 4.99 3.66 9.13 8.44 9.93v-7.03H8.08v-2.9h2.36V9.41c0-2.34 1.4-3.62 3.54-3.62 1.02 0 2.09.18 2.09.18v2.3h-1.18c-1.16 0-1.52.72-1.52 1.46v1.75h2.59l-.41 2.9h-2.18v7.03C18.34 21.2 22 17.06 22 12.07z" fill="#fff" fill-opacity="0.95"/></svg>
+        </a>
+        <a class="social-link" href="https://linkedin.com/in/ashrafun-nahar-arifa-6a8123336" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8.5h5V24H0V8.5zM8.5 8.5h4.78v2.07h.07c.66-1.25 2.28-2.57 4.7-2.57 5.03 0 5.95 3.31 5.95 7.61V24h-5v-7.92c0-1.89-.03-4.33-2.64-4.33-2.64 0-3.04 2.06-3.04 4.2V24h-5V8.5z" fill="#fff" fill-opacity="0.95"/></svg>
+        </a>
+        <a class="social-link" href="https://github.com/anaArifa" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 .5C5.73.5.9 5.33.9 11.6c0 4.75 3.07 8.77 7.33 10.2.54.1.74-.24.74-.53 0-.26-.01-.95-.01-1.86-2.98.65-3.61-1.45-3.61-1.45-.49-1.24-1.2-1.57-1.2-1.57-.98-.67.08-.66.08-.66 1.08.08 1.65 1.12 1.65 1.12.96 1.65 2.52 1.17 3.13.9.1-.7.38-1.17.69-1.44-2.38-.27-4.88-1.19-4.88-5.3 0-1.17.42-2.12 1.11-2.86-.11-.27-.48-1.36.11-2.84 0 0 .9-.29 2.95 1.1a10.2 10.2 0 0 1 2.69-.36c.91 0 1.82.12 2.69.36 2.05-1.39 2.95-1.1 2.95-1.1.59 1.48.22 2.57.11 2.84.69.74 1.11 1.69 1.11 2.86 0 4.12-2.5 5.03-4.88 5.3.39.34.73 1.02.73 2.06 0 1.49-.01 2.69-.01 3.06 0 .29.2.64.75.53C19.99 20.37 23.1 16.35 23.1 11.6 23.1 5.33 18.27.5 12 .5z" fill="#fff" fill-opacity="0.95"/></svg>
+        </a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
