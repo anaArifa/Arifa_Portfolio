@@ -16,6 +16,50 @@
   -moz-osx-font-smoothing:grayscale;
 }
 
+html[data-theme='light']{
+  --bg-900: #f5f5f5;
+  --bg-800: #e0e0e0;
+  --glass: rgba(0,0,0,0.05);
+  --muted: rgba(100,100,100,0.9);
+  --text: #1f1f1f;
+  --card-shadow: 0 6px 18px rgba(200,200,200,0.4);
+  --glass-border: rgba(0,0,0,0.06);
+  /* accent colors remain same */
+}
+
+/* overrides for readability when light theme is active */
+html[data-theme='light'] .nav-list a{
+  color: var(--text);
+}
+html[data-theme='light'] .nav-list a:hover,
+html[data-theme='light'] .nav-list a:focus{
+  color: var(--accent-1);
+  background: linear-gradient(90deg,var(--glass),transparent);
+}
+html[data-theme='light'] .site-header{
+  background: rgba(255,255,255,0.8);
+}
+html[data-theme='light'] .site-footer{
+  background: rgba(255,255,255,0.9);
+  color: var(--muted);
+}
+html[data-theme='light'] .footer-nav a{
+  color: var(--muted);
+}
+html[data-theme='light'] .contact-form input,
+html[data-theme='light'] .contact-form textarea{
+  background: rgba(255,255,255,0.6);
+  color: var(--text);
+  border:1px solid rgba(0,0,0,0.1);
+}
+html[data-theme='light'] .contact-form input::placeholder,
+html[data-theme='light'] .contact-form textarea::placeholder{
+  color: rgba(31,31,31,0.6);
+}
+html[data-theme='dark']{
+  /* dark settings inherit :root defaults */
+}
+
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
@@ -36,6 +80,10 @@ main{margin-top:var(--header-height)}
 .nav-list{list-style:none;margin:0;padding:0;display:flex;gap:1rem;align-items:center}
 .nav-list a{color:var(--muted);text-decoration:none;font-size:0.95rem;padding:0.45rem 0.6rem;border-radius:10px;transition:all 180ms ease}
 .nav-list a:hover,.nav-list a:focus{color:var(--text);background:linear-gradient(90deg,var(--glass),transparent)}
+
+#theme-toggle{background:none;border:none;cursor:pointer;color:var(--muted);padding:0.45rem;border-radius:10px;transition:color 180ms ease}
+#theme-toggle:hover{color:var(--text)}
+#theme-toggle svg{width:1.1rem;height:1.1rem;vertical-align:middle}
 .skip-link{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
 
 .hero{display:flex;gap:2.5rem;align-items:center;padding-top:2rem;padding-bottom:2rem}
