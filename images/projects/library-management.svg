@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Library Management System project preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="#0f172a" opacity="0.3" />
+  <text x="110" y="280" fill="#e2e8f0" font-size="62" font-family="Inter, Arial, sans-serif" font-weight="700">Library Management System</text>
+  <text x="110" y="350" fill="#bae6fd" font-size="34" font-family="Inter, Arial, sans-serif">Java Swing • MySQL • JDBC</text>
+</svg>
