@@ -676,6 +676,10 @@ body.light-theme .skill-fallback {
   border-top: 1px solid var(--border);
 }
 
+body.light-theme .contact-section {
+  background: var(--surface);
+}
+
 .section-title-wrap {
   text-align: left;
   margin-bottom: 2rem;
@@ -724,6 +728,12 @@ body.light-theme .skill-fallback {
   border: 1px solid rgba(139, 92, 246, 0.35);
   font-size: 1rem;
   line-height: 1;
+}
+
+.contact-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
 
 .contact-item h4 {
